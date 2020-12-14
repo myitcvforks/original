@@ -10,5 +10,5 @@ func main() {
 	if !ok {
 		panic("Could not read build info")
 	}
-	fmt.Printf("Hello, world! We are version %v\n", bi.Main.Version)
+	fmt.Printf("Hello, world! We are version %v\nBut I added some new features!\n", bi.Main.Version)
 }
